@@ -13,6 +13,7 @@
 #import "LayoutViewController.h"
 #import "DialogViewController.h"
 #import "NetViewController.h"
+#import "LMHWaterFallController.h"
 @interface AppDelegate ()
 
 @end
@@ -40,8 +41,11 @@
 //    self.window.rootViewController = dialogVC ;
     
     
-        NetViewController * netVC = [[NetViewController alloc] init];
-        self.window.rootViewController = netVC ;
+//        NetViewController * netVC = [[NetViewController alloc] init];
+//        self.window.rootViewController = netVC ;
+    
+    LMHWaterFallController * fallCV = [[LMHWaterFallController alloc] init];
+    self.window.rootViewController = fallCV ;
     return YES;
 }
 

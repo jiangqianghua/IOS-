@@ -4,4 +4,7 @@ target 'HttpDemo' do
 	pod 'Realm'
     pod 'MyLayout'
     pod 'AFNetworking', '~> 3.0.0-beta.3'
+    pod "SDWebImage"
+    pod "MJExtension"
+    pod "MJRefresh"
 end
