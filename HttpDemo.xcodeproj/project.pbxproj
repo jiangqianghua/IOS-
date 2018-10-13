@@ -13,12 +13,12 @@
 		044CF74A216EC2D0006036CE /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF749216EC2D0006036CE /* LayoutViewController.m */; };
 		04533DB8216F9C2F0035A625 /* libMyLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04533DB7216F9C2F0035A625 /* libMyLayout.a */; };
 		0496CE5C2166FD7F00BFA70E /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496CE5B2166FD7F00BFA70E /* FileViewController.m */; };
-		04A4708F217181B200750593 /* LMHWaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4708E217181B200750593 /* LMHWaterFallController.m */; };
-		04A4709C217183BA00750593 /* LMHShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A47097217183BA00750593 /* LMHShop.m */; };
-		04A4709D217183BA00750593 /* LMHShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A47099217183BA00750593 /* LMHShopCell.m */; };
-		04A4709E217183BA00750593 /* LMHShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709A217183BA00750593 /* LMHShopCell.xib */; };
-		04A4709F217183BA00750593 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709B217183BA00750593 /* shop.plist */; };
-		04A470A2217183C600750593 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A470A1217183C600750593 /* LMHWaterFallLayout.m */; };
+		04A470A52171860700750593 /* LMHWaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A470A42171860700750593 /* LMHWaterFallController.m */; };
+		04A470AC2171861100750593 /* LMHShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A470A72171861100750593 /* LMHShop.m */; };
+		04A470AD2171861100750593 /* LMHShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A470A92171861100750593 /* LMHShopCell.m */; };
+		04A470AE2171861100750593 /* LMHShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A470AA2171861100750593 /* LMHShopCell.xib */; };
+		04A470AF2171861100750593 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A470AB2171861100750593 /* shop.plist */; };
+		04A470B22171861B00750593 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A470B12171861B00750593 /* LMHWaterFallLayout.m */; };
 		04B43E8E2159461D002BBCD3 /* KeyValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B43E8D2159461D002BBCD3 /* KeyValueView.m */; };
 		04B43E9121594896002BBCD3 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B43E9021594896002BBCD3 /* UserInfoViewController.m */; };
 		04D8E1FA215D2BBD003E97DC /* DataBaseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8E1F9215D2BBD003E97DC /* DataBaseHandle.m */; };
@@ -69,16 +69,16 @@
 		04533DB7216F9C2F0035A625 /* libMyLayout.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLayout.a; path = "Pods/../build/Debug-iphoneos/MyLayout/libMyLayout.a"; sourceTree = "<group>"; };
 		0496CE5A2166FD7F00BFA70E /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
 		0496CE5B2166FD7F00BFA70E /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
-		04A4708D217181B200750593 /* LMHWaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHWaterFallController.h; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/LMHWaterFallController.h; sourceTree = "<group>"; };
-		04A4708E217181B200750593 /* LMHWaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHWaterFallController.m; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/LMHWaterFallController.m; sourceTree = "<group>"; };
-		04A47096217183BA00750593 /* LMHShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHShop.h; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/LMHShop.h; sourceTree = "<group>"; };
-		04A47097217183BA00750593 /* LMHShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHShop.m; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/LMHShop.m; sourceTree = "<group>"; };
-		04A47098217183BA00750593 /* LMHShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHShopCell.h; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/LMHShopCell.h; sourceTree = "<group>"; };
-		04A47099217183BA00750593 /* LMHShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHShopCell.m; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/LMHShopCell.m; sourceTree = "<group>"; };
-		04A4709A217183BA00750593 /* LMHShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMHShopCell.xib; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/LMHShopCell.xib; sourceTree = "<group>"; };
-		04A4709B217183BA00750593 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = shop.plist; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/shops/shop.plist; sourceTree = "<group>"; };
-		04A470A0217183C600750593 /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHWaterFallLayout.h; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/WaterFallLayout/LMHWaterFallLayout.h; sourceTree = "<group>"; };
-		04A470A1217183C600750593 /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHWaterFallLayout.m; path = ../../../../../../../Users/mac/Downloads/WaterFallDemo/WaterFallDemo/WaterFallLayout/LMHWaterFallLayout.m; sourceTree = "<group>"; };
+		04A470A32171860700750593 /* LMHWaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHWaterFallController.h; path = WaterFallLayout/LMHWaterFallController.h; sourceTree = "<group>"; };
+		04A470A42171860700750593 /* LMHWaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHWaterFallController.m; path = WaterFallLayout/LMHWaterFallController.m; sourceTree = "<group>"; };
+		04A470A62171861100750593 /* LMHShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHShop.h; path = WaterFallLayout/shops/LMHShop.h; sourceTree = "<group>"; };
+		04A470A72171861100750593 /* LMHShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHShop.m; path = WaterFallLayout/shops/LMHShop.m; sourceTree = "<group>"; };
+		04A470A82171861100750593 /* LMHShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHShopCell.h; path = WaterFallLayout/shops/LMHShopCell.h; sourceTree = "<group>"; };
+		04A470A92171861100750593 /* LMHShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHShopCell.m; path = WaterFallLayout/shops/LMHShopCell.m; sourceTree = "<group>"; };
+		04A470AA2171861100750593 /* LMHShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMHShopCell.xib; path = WaterFallLayout/shops/LMHShopCell.xib; sourceTree = "<group>"; };
+		04A470AB2171861100750593 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = shop.plist; path = WaterFallLayout/shops/shop.plist; sourceTree = "<group>"; };
+		04A470B02171861B00750593 /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMHWaterFallLayout.h; path = WaterFallLayout/WaterFallLayout/LMHWaterFallLayout.h; sourceTree = "<group>"; };
+		04A470B12171861B00750593 /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMHWaterFallLayout.m; path = WaterFallLayout/WaterFallLayout/LMHWaterFallLayout.m; sourceTree = "<group>"; };
 		04B43E8C2159461D002BBCD3 /* KeyValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueView.h; sourceTree = "<group>"; };
 		04B43E8D2159461D002BBCD3 /* KeyValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueView.m; sourceTree = "<group>"; };
 		04B43E8F21594896002BBCD3 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
@@ -173,10 +173,10 @@
 		04A4708C2171819200750593 /* ListLayout */ = {
 			isa = PBXGroup;
 			children = (
+				04A470A32171860700750593 /* LMHWaterFallController.h */,
+				04A470A42171860700750593 /* LMHWaterFallController.m */,
 				04A47095217183A700750593 /* WaterFallLayout */,
 				04A470942171839400750593 /* shops */,
-				04A4708D217181B200750593 /* LMHWaterFallController.h */,
-				04A4708E217181B200750593 /* LMHWaterFallController.m */,
 			);
 			name = ListLayout;
 			sourceTree = "<group>";
@@ -184,12 +184,12 @@
 		04A470942171839400750593 /* shops */ = {
 			isa = PBXGroup;
 			children = (
-				04A47096217183BA00750593 /* LMHShop.h */,
-				04A47097217183BA00750593 /* LMHShop.m */,
-				04A47098217183BA00750593 /* LMHShopCell.h */,
-				04A47099217183BA00750593 /* LMHShopCell.m */,
-				04A4709A217183BA00750593 /* LMHShopCell.xib */,
-				04A4709B217183BA00750593 /* shop.plist */,
+				04A470A62171861100750593 /* LMHShop.h */,
+				04A470A72171861100750593 /* LMHShop.m */,
+				04A470A82171861100750593 /* LMHShopCell.h */,
+				04A470A92171861100750593 /* LMHShopCell.m */,
+				04A470AA2171861100750593 /* LMHShopCell.xib */,
+				04A470AB2171861100750593 /* shop.plist */,
 			);
 			name = shops;
 			sourceTree = "<group>";
@@ -197,8 +197,8 @@
 		04A47095217183A700750593 /* WaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
-				04A470A0217183C600750593 /* LMHWaterFallLayout.h */,
-				04A470A1217183C600750593 /* LMHWaterFallLayout.m */,
+				04A470B02171861B00750593 /* LMHWaterFallLayout.h */,
+				04A470B12171861B00750593 /* LMHWaterFallLayout.m */,
 			);
 			name = WaterFallLayout;
 			sourceTree = "<group>";
@@ -482,10 +482,10 @@
 			files = (
 				04F6425421593B4300E3451D /* LaunchScreen.storyboard in Resources */,
 				04D8E1FF215D3856003E97DC /* person.plist in Resources */,
-				04A4709F217183BA00750593 /* shop.plist in Resources */,
+				04A470AF2171861100750593 /* shop.plist in Resources */,
 				04F6425121593B4300E3451D /* Assets.xcassets in Resources */,
 				04F6424F21593B4300E3451D /* Main.storyboard in Resources */,
-				04A4709E217183BA00750593 /* LMHShopCell.xib in Resources */,
+				04A470AE2171861100750593 /* LMHShopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,9 +551,9 @@
 			files = (
 				04F6E3DF217105F200D4B595 /* UploadParam.m in Sources */,
 				04F6E3D92170F17F00D4B595 /* DialogViewController.m in Sources */,
-				04A470A2217183C600750593 /* LMHWaterFallLayout.m in Sources */,
+				04A470B22171861B00750593 /* LMHWaterFallLayout.m in Sources */,
 				04B43E9121594896002BBCD3 /* UserInfoViewController.m in Sources */,
-				04A4709D217183BA00750593 /* LMHShopCell.m in Sources */,
+				04A470AD2171861100750593 /* LMHShopCell.m in Sources */,
 				04F46AC5215B07A500703BC8 /* WebViewController.m in Sources */,
 				044CF74A216EC2D0006036CE /* LayoutViewController.m in Sources */,
 				0496CE5C2166FD7F00BFA70E /* FileViewController.m in Sources */,
@@ -561,11 +561,11 @@
 				04F6424C21593B4300E3451D /* ViewController.m in Sources */,
 				04F6E3E521710C8F00D4B595 /* NetViewController.m in Sources */,
 				04D8E1FA215D2BBD003E97DC /* DataBaseHandle.m in Sources */,
-				04A4708F217181B200750593 /* LMHWaterFallController.m in Sources */,
+				04A470A52171860700750593 /* LMHWaterFallController.m in Sources */,
 				04F6424921593B4300E3451D /* AppDelegate.m in Sources */,
 				04B43E8E2159461D002BBCD3 /* KeyValueView.m in Sources */,
 				04F6E3E22171069C00D4B595 /* HttpRequest.m in Sources */,
-				04A4709C217183BA00750593 /* LMHShop.m in Sources */,
+				04A470AC2171861100750593 /* LMHShop.m in Sources */,
 				041800CF2162F08000018D2A /* RealmViewController.m in Sources */,
 				04F6424621593B4300E3451D /* main.m in Sources */,
 			);
