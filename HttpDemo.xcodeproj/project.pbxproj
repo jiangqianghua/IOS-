@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04144905217646E700D18643 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04144903217646E700D18643 /* XibViewController.m */; };
+		04144906217646E700D18643 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04144904217646E700D18643 /* XibViewController.xib */; };
+		0414490A21764EFB00D18643 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414490921764EFB00D18643 /* XibView.m */; };
+		0414490C21764F0D00D18643 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0414490B21764F0D00D18643 /* XibView.xib */; };
 		041800CF2162F08000018D2A /* RealmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041800CE2162F08000018D2A /* RealmViewController.m */; };
 		041800D12162F29400018D2A /* libRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041800D02162F29400018D2A /* libRealm.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		041800D32162F2E600018D2A /* libPods-HttpDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041800D22162F2E600018D2A /* libPods-HttpDemo.a */; };
@@ -24,6 +28,7 @@
 		04D8E1FA215D2BBD003E97DC /* DataBaseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8E1F9215D2BBD003E97DC /* DataBaseHandle.m */; };
 		04D8E1FD215D35E2003E97DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D8E1FC215D35E2003E97DC /* libsqlite3.0.tbd */; };
 		04D8E1FF215D3856003E97DC /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D8E1FE215D3856003E97DC /* person.plist */; };
+		04EF27852174F7B30074EB75 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF27842174F7B30074EB75 /* RefreshViewController.m */; };
 		04F43A56215C5891004E325C /* CircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F43A55215C5891004E325C /* CircleImageView.m */; };
 		04F46AC5215B07A500703BC8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F46AC4215B07A500703BC8 /* WebViewController.m */; };
 		04F6424621593B4300E3451D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6424521593B4300E3451D /* main.m */; };
@@ -60,6 +65,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04144902217646E700D18643 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
+		04144903217646E700D18643 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
+		04144904217646E700D18643 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		0414490821764EFB00D18643 /* XibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		0414490921764EFB00D18643 /* XibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		0414490B21764F0D00D18643 /* XibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
 		041800CD2162F08000018D2A /* RealmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmViewController.h; sourceTree = "<group>"; };
 		041800CE2162F08000018D2A /* RealmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmViewController.m; sourceTree = "<group>"; };
 		041800D02162F29400018D2A /* libRealm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRealm.a; path = "Pods/../build/Debug-iphoneos/Realm/libRealm.a"; sourceTree = "<group>"; };
@@ -87,6 +98,8 @@
 		04D8E1F9215D2BBD003E97DC /* DataBaseHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseHandle.m; sourceTree = "<group>"; };
 		04D8E1FC215D35E2003E97DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		04D8E1FE215D3856003E97DC /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
+		04EF27832174F7B30074EB75 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		04EF27842174F7B30074EB75 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		04F43A54215C5891004E325C /* CircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleImageView.h; sourceTree = "<group>"; };
 		04F43A55215C5891004E325C /* CircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleImageView.m; sourceTree = "<group>"; };
 		04F46AC3215B07A500703BC8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -152,6 +165,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041448FC2176465000D18643 /* XibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0414490721764EDA00D18643 /* view */,
+				04144902217646E700D18643 /* XibViewController.h */,
+				04144903217646E700D18643 /* XibViewController.m */,
+				04144904217646E700D18643 /* XibViewController.xib */,
+			);
+			name = XibDemo;
+			sourceTree = "<group>";
+		};
+		0414490721764EDA00D18643 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0414490821764EFB00D18643 /* XibView.h */,
+				0414490921764EFB00D18643 /* XibView.m */,
+				0414490B21764F0D00D18643 /* XibView.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		044CF747216EC2AB006036CE /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +291,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		04EF27822174F7080074EB75 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				04EF27832174F7B30074EB75 /* RefreshViewController.h */,
+				04EF27842174F7B30074EB75 /* RefreshViewController.m */,
+			);
+			name = Refresh;
+			sourceTree = "<group>";
+		};
 		04F6423821593B4300E3451D = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +326,8 @@
 		04F6424321593B4300E3451D /* HttpDemo */ = {
 			isa = PBXGroup;
 			children = (
+				041448FC2176465000D18643 /* XibDemo */,
+				04EF27822174F7080074EB75 /* Refresh */,
 				04A4708C2171819200750593 /* ListLayout */,
 				04F6E3DC217105C600D4B595 /* Net */,
 				04F6E3D62170F16B00D4B595 /* Dialog */,
@@ -482,6 +527,8 @@
 			files = (
 				04F6425421593B4300E3451D /* LaunchScreen.storyboard in Resources */,
 				04D8E1FF215D3856003E97DC /* person.plist in Resources */,
+				0414490C21764F0D00D18643 /* XibView.xib in Resources */,
+				04144906217646E700D18643 /* XibViewController.xib in Resources */,
 				04A470AF2171861100750593 /* shop.plist in Resources */,
 				04F6425121593B4300E3451D /* Assets.xcassets in Resources */,
 				04F6424F21593B4300E3451D /* Main.storyboard in Resources */,
@@ -555,6 +602,7 @@
 				04B43E9121594896002BBCD3 /* UserInfoViewController.m in Sources */,
 				04A470AD2171861100750593 /* LMHShopCell.m in Sources */,
 				04F46AC5215B07A500703BC8 /* WebViewController.m in Sources */,
+				0414490A21764EFB00D18643 /* XibView.m in Sources */,
 				044CF74A216EC2D0006036CE /* LayoutViewController.m in Sources */,
 				0496CE5C2166FD7F00BFA70E /* FileViewController.m in Sources */,
 				04F43A56215C5891004E325C /* CircleImageView.m in Sources */,
@@ -563,8 +611,10 @@
 				04D8E1FA215D2BBD003E97DC /* DataBaseHandle.m in Sources */,
 				04A470A52171860700750593 /* LMHWaterFallController.m in Sources */,
 				04F6424921593B4300E3451D /* AppDelegate.m in Sources */,
+				04144905217646E700D18643 /* XibViewController.m in Sources */,
 				04B43E8E2159461D002BBCD3 /* KeyValueView.m in Sources */,
 				04F6E3E22171069C00D4B595 /* HttpRequest.m in Sources */,
+				04EF27852174F7B30074EB75 /* RefreshViewController.m in Sources */,
 				04A470AC2171861100750593 /* LMHShop.m in Sources */,
 				041800CF2162F08000018D2A /* RealmViewController.m in Sources */,
 				04F6424621593B4300E3451D /* main.m in Sources */,
